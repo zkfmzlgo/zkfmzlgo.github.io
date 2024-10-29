@@ -1,8 +1,8 @@
 ---
-title: "test"
+title: "blog"
 layout: archive
-permalink: /test
+permalink: /blog
 ---
-하나씩 테스트 해보기
-{% assign posts = site.categories.test %}
+
+{% assign posts = site.categories.blog %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
